@@ -32,7 +32,7 @@ const Data = [
         courseCode: 'ENG-321',
         creditHours: '3(3-0)',
         image: {
-          uri: '',
+          uri: 'https://images.unsplash.com/photo-1576689560324-1b8748a830be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGVuZ2xpc2glMjBib29rfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
         },
         url: 'https://calink.weebly.com/uploads/2/4/0/7/24079600/afc1-functional_english_studytext.pdf',
       },
@@ -91,7 +91,7 @@ const Data = [
         courseCode: '',
         creditHours: '3(3-0)',
         image: {
-          uri: '',
+          uri: 'https://images.unsplash.com/photo-1577109688746-ff8681fb7b4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFraXN0YW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
         },
         url: 'https://hec.gov.pk/english/services/universities/RevisedCurricula/Documents/2011-2012/Education/PakStudies_Sept13.pdf',
       },
@@ -100,6 +100,9 @@ const Data = [
         booktitle: 'English Comprehension & Composition',
         courseCode: 'ENG-322',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        },
         url: 'https://s3.amazonaws.com/lumenlearning/success/Master+PDFs/English-Composition-I-1510697405_regexified.pdf',
       },
       {
@@ -107,6 +110,9 @@ const Data = [
         booktitle: 'Basic Electronics',
         courseCode: 'PHY-312',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.pexels.com/photos/714699/pexels-photo-714699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        },
         url: 'http://engineering.nyu.edu/gk12/amps-cbri/pdf/Basic%20Electronics.pdf',
       },
     ],
@@ -123,6 +129,9 @@ const Data = [
         booktitle: 'Data Structure & Algorithm',
         courseCode: 'CSI-401',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/digital-transformation-concept-system-engineering-binary-code-picture-id1321462048?b=1&k=20&m=1321462048&s=170667a&w=0&h=mlDKCuG5oXoX5zeCl6ixK1MiG1Y--ZmE4N6ku0NUKOE=',
+        },
         url: 'https://www.cs.bham.ac.uk/~jxb/DSA/dsa.pdf',
       },
       {
@@ -130,6 +139,9 @@ const Data = [
         booktitle: 'DLD',
         courseCode: 'CSI-403',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1635241161466-541f065683ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGlndGFsJTIwbG9naWN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://mrcet.com/downloads/digital_notes/IT/DIGITAL%20LOGIC%20DESIGN%20(R17A0461).pdf',
       },
       {
@@ -137,6 +149,9 @@ const Data = [
         booktitle: 'Intro. database System',
         courseCode: 'CSI-406',
         creditHours: '4(3-1)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/database-and-network-technology-picture-id1304450711?b=1&k=20&m=1304450711&s=170667a&w=0&h=kGedeBlOko0CZIfQzQdZn-Be2TGwd0QdlIOrEubds84=',
+        },
         url: 'https://lc.fie.umich.mx/~rodrigo/BD/An%20Introduction%20to%20Database%20Systems%208e%20By%20C%20J%20Date.pdf',
       },
       {
@@ -144,6 +159,9 @@ const Data = [
         booktitle: 'Intro. to Statistical theory',
         courseCode: 'SAT-321',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/binary-code-blue-background-data-transfer-ai-cloud-computing-picture-id1300112022?b=1&k=20&m=1300112022&s=170667a&w=0&h=3_EGroxUnEBOXJHoK2zWKbeRUOaT4f12Yx4Ju_n2BWo=',
+        },
         url: 'https://educations4u.com/wp-content/uploads/2021/09/Introduction-to-STATISTICAL-THEORY-BSc-Part-1-By-Prof-Sher-Muhammad-Choudhry-and-Prof.-Dr.-Shahid-Kamal.pdf',
       },
       {
@@ -151,6 +169,9 @@ const Data = [
         booktitle: 'Communication Skills',
         courseCode: 'ENG-421',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1470586514261-a041c8e50037?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbW11bmljYXRpb25zfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://dl.uswr.ac.ir/bitstream/Hannan/141245/1/9781138219120.pdf',
       },
       {
@@ -158,6 +179,9 @@ const Data = [
         booktitle: 'Funda. of Marketing',
         courseCode: 'BMS-406',
         creditHours: '3(3-1)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFya2V0aW5nJTIwcGxhbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'http://rezakord.com/uploads/91b0c5c8c158421fa332a449c435e1b4.pdf',
       },
     ],
@@ -174,6 +198,9 @@ const Data = [
         booktitle: 'Operating System',
         courseCode: 'CSI-402',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1633419461186-7d40a38105ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3BlcmF0aW5nJTIwc3lzdGVtfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://www.cl.cam.ac.uk/teaching/1011/OpSystems/os1a-slides.pdf',
       },
       {
@@ -181,6 +208,9 @@ const Data = [
         booktitle: 'Info. & system',
         courseCode: 'CIT-404',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5mb3JtYXRpb24lMjBzeXN0ZW18ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://www.uky.edu/~gmswan3/777/IS_Book.pdf',
       },
       {
@@ -188,6 +218,9 @@ const Data = [
         booktitle: 'Web System & Tech',
         courseCode: 'CIT-404',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2VifGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://archive.uneca.org/sites/default/files/uploaded-documents/SROs/SA/GIS-SP2018/introduction_to_web_technology.pdf',
       },
       {
@@ -195,6 +228,9 @@ const Data = [
         booktitle: 'Computer communication & Net',
         courseCode: 'CSI-404',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1539319136574-7934afd94566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGVyJTIwY29tbXVuaWNhdGlvbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://www.tutorialspoint.com/data_communication_computer_network/data_communication_computer_network_tutorial.pdf',
       },
       {
@@ -202,6 +238,9 @@ const Data = [
         booktitle: 'Intro. to Software & Net',
         courseCode: 'SWE-401',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1593642532973-d31b6557fa68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c29mdHdhcmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'http://intronetworks.cs.luc.edu/current2/ComputerNetworks.pdf',
       },
     ],
@@ -218,6 +257,9 @@ const Data = [
         booktitle: 'Computer Network',
         courseCode: 'CIT-501',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1486551937199-baf066858de7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV0d29ya3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'http://intronetworks.cs.luc.edu/current2/ComputerNetworks.pdf',
       },
       {
@@ -225,6 +267,9 @@ const Data = [
         booktitle: 'Internet Architecture & Protocol',
         courseCode: 'CIT-503',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/data-center-female-it-specialist-using-laptop-server-farm-cloud-and-picture-id1336250828?b=1&k=20&m=1336250828&s=170667a&w=0&h=OKVbl760JiwHLNSQDrUGWfnJ8W6qLsJoW5FNItG0eKM=',
+        },
         url: 'https://www.ccs.neu.edu/home/noubir/Courses/CSU610/S06/internetworking.pdf',
       },
       {
@@ -232,13 +277,19 @@ const Data = [
         booktitle: 'DB Admin & management',
         courseCode: 'CIT-505',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/computer-colored-folders-documents-picture-id695578338?b=1&k=20&m=695578338&s=170667a&w=0&h=O9oZsU-NA7BS0mDsj9B_FSA6Z2L7Bj5iB0H7bg_HOpc=',
+        },
         url: 'https://ptgmedia.pearsoncmg.com/images/9780321822949/samplepages/0321822943.pdf',
       },
       {
         id: 4,
-        booktitle: 'Oject Oriented analysis & Design',
+        booktitle: 'Object Oriented analysis & Design',
         courseCode: 'CIT-507',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1540612597331-63c67ea382fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVzaWdufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'http://home.vinhuni.edu.vn/cuongvcc/wp-content/uploads/sites/109/2017/10/object_oriented_analysis_and_design_with_applications_2nd_edition_2788.pdf',
       },
       {
@@ -246,6 +297,9 @@ const Data = [
         booktitle: 'Information System Audit',
         courseCode: 'BBA-511',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/database-picture-id95769798?b=1&k=20&m=95769798&s=170667a&w=0&h=Ut9NlTExybMoJsxRmKs0rVr-vc1RgWwmtk0fGKHl7uQ=',
+        },
         url: 'http://kb.icai.org/pdfs/PDFFile5b2789ec0ef5c9.98075589.pdf',
       },
     ],
@@ -262,6 +316,9 @@ const Data = [
         booktitle: 'Multimedia System & Design',
         courseCode: 'CIT-502',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/media-concept-multiple-television-screens-picture-id1336906460?b=1&k=20&m=1336906460&s=170667a&w=0&h=y0kExpeeegJP8r4bItLyhH9LmeO7fIBStITIWA_fHbU=',
+        },
         url: 'http://engineering.futureuniversity.com/BOOKS%20FOR%20IT/DCAP303_MULTIMEDIA_SYSTEMS.pdf',
       },
       {
@@ -269,6 +326,9 @@ const Data = [
         booktitle: 'Technology & Management',
         courseCode: 'CIT-504',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/media-concept-with-tv-screens-picture-id1301983459?b=1&k=20&m=1301983459&s=170667a&w=0&h=rh_XkYTuyt6DCkDvmTSsAM5gdlEp74RXMdgui2GHXK4=',
+        },
         url: 'https://www.ithub.edu.pk/technologyManagement/Chapter1-TechnologyManagement.pdf',
       },
       {
@@ -276,6 +336,10 @@ const Data = [
         booktitle: 'System Integration & Architecture',
         courseCode: 'CIT-506',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1533417479565-6e21cba3fadb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJjaGl0ZWN0dXJlJTIwZGVzaWdufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
+
         url: 'https://tech.ebu.ch/docs/techreview/trev_301-middleware.pdf',
       },
       {
@@ -283,6 +347,10 @@ const Data = [
         booktitle: 'System & Network Admin',
         courseCode: 'CIT-508',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1649429398909-db7ae841c386?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG5ldHdvcmt8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        },
+
         url: 'https://ptgmedia.pearsoncmg.com/images/9780321492661/samplepages/0321492668.pdf',
       },
     ],
@@ -300,6 +368,9 @@ const Data = [
         booktitle: 'Human Computer Interaction',
         courseCode: 'CIT-601',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1617289755070-3590b660a06e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFuJTIwcmVzb3VyY2VzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://info.sice.indiana.edu/~hrosenba/S510/classes/hci_intro/hci_intro.pdf',
       },
       {
@@ -307,6 +378,9 @@ const Data = [
         booktitle: 'IT Project Mangement',
         courseCode: 'CIT-602',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/cloud-computing-picture-id1318623693?b=1&k=20&m=1318623693&s=170667a&w=0&h=EQ1IN6TphBimjX7qPTOdm-yW4aSbjcAKV4kRyzS6zyw=',
+        },
         url: 'https://www.depts.ttu.edu/infotech/docs/pmguide.pdf',
       },
       {
@@ -314,6 +388,9 @@ const Data = [
         booktitle: 'Network Security',
         courseCode: 'CIT-605',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1480160734175-e2209654433c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2VjdXJpdHl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://training.apnic.net/wp-content/uploads/sites/2/2016/12/TSEC01.pdf',
       },
       {
@@ -321,6 +398,9 @@ const Data = [
         booktitle: 'Cloud Computing',
         courseCode: 'CIT-607',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/cloud-computing-picture-id1318623693?b=1&k=20&m=1318623693&s=170667a&w=0&h=EQ1IN6TphBimjX7qPTOdm-yW4aSbjcAKV4kRyzS6zyw=',
+        },
         url: 'https://mu.ac.in/wp-content/uploads/2021/01/Cloud-Computing.pdf',
       },
     ],
@@ -328,6 +408,7 @@ const Data = [
   {
     id: 8,
     title: 'BS-IT Semester 8',
+
     image: {
       uri: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -338,6 +419,9 @@ const Data = [
         booktitle: 'Professional Practice',
         courseCode: 'CIT-602',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/modern-keyboard-wih-blue-compliance-button-picture-id621604558?b=1&k=20&m=621604558&s=170667a&w=0&h=38c3Vq_f7LghjsB6JG0UjnLJdJ2NtmN4J0w48ZinM8o=',
+        },
         url: 'https://www.education.vic.gov.au/Documents/school/teachers/teachingresources/practice/Guidance_for_professional_practice_days.pdf',
       },
       {
@@ -345,6 +429,9 @@ const Data = [
         booktitle: 'Human Resource Mangement',
         courseCode: 'BBA-604',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/human-resource-concepts-on-blue-background-picture-id1320841276?b=1&k=20&m=1320841276&s=170667a&w=0&h=qoH3kS_dIN0JeWSxO6ySU25EhLFsEbbs4qSxdbOt_B4=',
+        },
         url: 'https://brauss.in/hrm-basic-notes.pdf',
       },
       {
@@ -352,6 +439,9 @@ const Data = [
         booktitle: 'Project',
         courseCode: 'CIT-631',
         creditHours: '6(0-6)',
+        image: {
+          uri: 'https://media.istockphoto.com/photos/digitally-enhanced-shot-of-two-handsome-businessmen-working-in-the-picture-id1322205575?b=1&k=20&m=1322205575&s=170667a&w=0&h=CuVOvQv6qSFKhyUAKR_x72kGdYuESHumN0yILMpg_-I=',
+        },
         url: 'https://pats.cs.cf.ac.uk/wiki/lib/exe/fetch.php?media=project-report.pdf',
       },
     ],
