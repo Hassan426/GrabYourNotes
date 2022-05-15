@@ -1,9 +1,15 @@
 import SplashScreen from './SplashScreen';
-
 import HomeScreen from './HomeScreen';
-import Listofsemester from './Listofsemester';
-import Shome from './Shome';
-import Show from './Show';
+import SemesterHomeScreen from './SemesterHomeScreen';
+import BookHomeScreen from './BookHomeScreen';
+import PDFScreen from './PDFScreen';
 import SwipeAbleScreen from './SwipeAbleScreen';
 
-export {SplashScreen, HomeScreen, Listofsemester, Shome, Show, SwipeAbleScreen};
+export {
+  SplashScreen,
+  SemesterHomeScreen,
+  BookHomeScreen,
+  PDFScreen,
+  SwipeAbleScreen,
+  HomeScreen,
+};

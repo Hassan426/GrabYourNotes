@@ -1,7 +1,7 @@
 const Data = [
   {
     id: 1,
-    title: 'Semester 1',
+    title: 'BS-IT Semester 1',
     image: {
       uri: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5mb3JtYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -11,6 +11,9 @@ const Data = [
         booktitle: 'Programming Fundamentals',
         courseCode: 'CSI-301',
         creditHours: '4(3-1)',
+        image: {
+          uri: 'https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1200/api/page/5393602882568192/image/download/6038586442907648',
+        },
         url: 'https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/692/3/Programming-Fundamentals-1570222270.pdf',
       },
       {
@@ -18,6 +21,9 @@ const Data = [
         booktitle: 'Intro. to Info and Communication Tech',
         courseCode: 'CSI-303',
         creditHours: '3(2-1)',
+        image: {
+          uri: 'https://thumbs.dreamstime.com/b/ict-information-communication-technology-concept-virtual-screen-wireless-network-intelligent-system-automation-robotic-hand-169403669.jpg',
+        },
         url: 'https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/692/3/Programming-Fundamentals-1570222270.pdf',
       },
       {
@@ -25,6 +31,9 @@ const Data = [
         booktitle: 'Fuctional English',
         courseCode: 'ENG-321',
         creditHours: '3(3-0)',
+        image: {
+          uri: '',
+        },
         url: 'https://calink.weebly.com/uploads/2/4/0/7/24079600/afc1-functional_english_studytext.pdf',
       },
       {
@@ -32,6 +41,9 @@ const Data = [
         booktitle: 'Islamic Studies',
         courseCode: 'ISL-321',
         creditHours: '2(2-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1597505495109-7fc35bb64d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aXNsYW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'http://www.islamicclasses.com/download/pdf/islamic-studies-grade-01.pdf',
       },
       {
@@ -39,13 +51,16 @@ const Data = [
         booktitle: 'Calculus and Analtical Geometry',
         courseCode: 'MTH-323',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://math.dartmouth.edu/~doyle/docs/calc/calc.pdf',
       },
     ],
   },
   {
     id: 2,
-    title: 'Semester 2',
+    title: 'BS-IT Semester 2',
     image: {
       uri: 'https://images.unsplash.com/photo-1610572589034-db4158d44066?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aW5mb3JtYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -55,6 +70,9 @@ const Data = [
         booktitle: 'Object Oriented Programming',
         courseCode: 'CSI-302',
         creditHours: '4(3-1)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://mrcet.com/downloads/digital_notes/HS/OOP_10122018.pdf',
       },
       {
@@ -62,6 +80,9 @@ const Data = [
         booktitle: 'Discreate Strutres',
         courseCode: 'CSI-304',
         creditHours: '3(3-0)',
+        image: {
+          uri: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hdGh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        },
         url: 'https://web.stanford.edu/class/cs103x/cs103x-notes.pdf',
       },
       {
@@ -69,6 +90,9 @@ const Data = [
         booktitle: 'Pakistan Studies',
         courseCode: '',
         creditHours: '3(3-0)',
+        image: {
+          uri: '',
+        },
         url: 'https://hec.gov.pk/english/services/universities/RevisedCurricula/Documents/2011-2012/Education/PakStudies_Sept13.pdf',
       },
       {
@@ -89,7 +113,7 @@ const Data = [
   },
   {
     id: 3,
-    title: 'Semester 3',
+    title: 'BS-IT Semester 3',
     image: {
       uri: 'https://images.unsplash.com/photo-1580584126903-c17d41830450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -140,7 +164,7 @@ const Data = [
   },
   {
     id: 4,
-    title: 'Semester 4',
+    title: 'BS-IT Semester 4',
     image: {
       uri: 'https://images.unsplash.com/photo-1620283085068-5aab84e2db8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -184,7 +208,7 @@ const Data = [
   },
   {
     id: 5,
-    title: 'Semester 5',
+    title: 'BS-IT Semester 5',
     image: {
       uri: 'https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -228,7 +252,7 @@ const Data = [
   },
   {
     id: 6,
-    title: 'Semester 6',
+    title: 'BS-IT Semester 6',
     image: {
       uri: 'https://images.unsplash.com/photo-1496096265110-f83ad7f96608?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -265,7 +289,7 @@ const Data = [
   },
   {
     id: 7,
-    title: 'Semester 7',
+    title: 'BS-IT Semester 7',
     image: {
       uri: 'https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },
@@ -303,7 +327,7 @@ const Data = [
   },
   {
     id: 8,
-    title: 'Semester 8',
+    title: 'BS-IT Semester 8',
     image: {
       uri: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGluZm9ybWF0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     },

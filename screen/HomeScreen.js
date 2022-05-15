@@ -1,49 +1,36 @@
-import {
-  StyleSheet,
-  Text,
-  ImageBackground,
-  View,
-  ScrollView,
-  FlatList,
-} from 'react-native';
+import {StyleSheet, Text, View, ScrollView} from 'react-native';
 import React from 'react';
-import Colors from '../constants/Colors';
-import Button1 from '../components/Button1';
-import CateGories from '../components/CateGories';
-import Data from '../DummyData/DummyData';
-import SemesterCard from '../constants/SemesterCard';
+import SemesterCard from '../components/SemesterCard';
 import {height} from 'react-native-dimension';
 
 const HomeScreen = ({navigation}) => {
   return (
-    // <ImageBackground
-    //   style={{width: '100%', height: '100%'}}
-    //   source={{
-    //     uri: 'https://images.pexels.com/photos/1148399/pexels-photo-1148399.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
-    //   }}>
-    <View>
-      <FlatList
-        data={Data}
-        renderItem={({item}) => (
-          <View>
-            <SemesterCard
-              semester={item.title}
-              image={item.image}
-              onPress={() =>
-                navigation.navigate('Shome', {
-                  Books: item.Books,
-                  booktitle: item.booktitle,
-                })
-              }
-            />
-          </View>
-        )}
+    <ScrollView>
+      <SemesterCard
+        semester={'PDF BOOKS'}
+        image={{
+          uri: 'https://images.unsplash.com/photo-1471970471555-19d4b113e9ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym9va3N8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        }}
+        onPress={() => navigation.navigate('SemesterHome')}
       />
-      {/* </ImageBackground> */}
-    </View>
+      <SemesterCard
+        semester={'PDF NOTES'}
+        image={{
+          uri: 'https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3R1ZHklMjBub3Rlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        }}
+        onPress={() => alert('Screen added later')}
+      />
+      <SemesterCard
+        semester={'VIDEO LECTURES'}
+        image={{
+          uri: 'https://media.istockphoto.com/photos/elearning-education-concept-learning-online-picture-id1290864946?b=1&k=20&m=1290864946&s=170667a&w=0&h=zZq7rG5McSptSIpEm9f8iTGd3Mrdkcslakr91T7qTYM=',
+        }}
+        onPress={() => alert('Screen added later')}
+      />
+      <View style={{marginBottom: height(2)}}></View>
+    </ScrollView>
   );
 };
-
 export default HomeScreen;
 
 const styles = StyleSheet.create({});

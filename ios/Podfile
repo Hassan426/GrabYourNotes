@@ -23,6 +23,8 @@ target 'GrabYourNotes' do
 
   pod 'react-native-blob-util', :path => '../node_modules/react-native-blob-util'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'GrabYourNotesTests' do
     inherit! :complete
     # Pods for testing
