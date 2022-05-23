@@ -15,12 +15,12 @@ import SemesterCard from '../components/SemesterCard';
 import BookHomeScreen from './BookHomeScreen';
 import {height} from 'react-native-dimension';
 
-const SemesterHomeScreen = ({navigation, route}) => {
-  const {Data} = route.params;
-  console.log('dataaaaaaaaaaaa', Data);
+const SemesterHomeScreen1 = ({navigation, route}) => {
+  const {Data1} = route.params;
+  console.log('dataaaaaaaaaaaa', Data1);
   useEffect(() => {
     navigation.setOptions({
-      title: 'SEMESTER LIST OF BOOKS',
+      title: 'SEMESTER LIST OF NOTES',
     });
   }, []);
   return (
@@ -31,14 +31,14 @@ const SemesterHomeScreen = ({navigation, route}) => {
     //   }}>
     <View style={{marginTop: height(2)}}>
       <FlatList
-        data={Data}
+        data={Data1}
         renderItem={({item}) => (
           <View>
             <SemesterCard
               semester={item.title}
               image={item.image}
               onPress={() =>
-                navigation.navigate('Bookhome', {
+                navigation.navigate('Bookhome1', {
                   Books: item.Books,
                   // booktitle: item.booktitle,
                 })
@@ -52,6 +52,6 @@ const SemesterHomeScreen = ({navigation, route}) => {
   );
 };
 
-export default SemesterHomeScreen;
+export default SemesterHomeScreen1;
 
 const styles = StyleSheet.create({});

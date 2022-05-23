@@ -19,9 +19,9 @@ export default SemesterCard;
 
 const styles = StyleSheet.create({
   main: {
-    marginHorizontal: width(4),
-    backgroundColor: 'white',
-    marginTop: height(2),
+    // marginHorizontal: width(4),
+    // backgroundColor: 'white',
+    marginBottom: height(2),
   },
   imageStyle: {
     height: height(40),

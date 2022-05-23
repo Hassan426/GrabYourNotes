@@ -68,8 +68,7 @@ export default BookCard;
 const styles = StyleSheet.create({
   main: {
     marginHorizontal: width(4),
-    backgroundColor: 'white',
-    marginTop: height(2),
+    marginBottom: height(2),
   },
   imageStyle: {
     height: height(40),

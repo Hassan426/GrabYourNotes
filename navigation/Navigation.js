@@ -3,7 +3,9 @@ import React from 'react';
 import {
   SplashScreen,
   SemesterHomeScreen,
+  SemesterHomeScreen1,
   BookHomeScreen,
+  BookHomeScreen1,
   PDFScreen,
   SwipeAbleScreen,
   HomeScreen,
@@ -16,32 +18,28 @@ export default function Navigation() {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Splash">
+      <Stack.Navigator
+        initialRouteName="Splash"
+        screenOptions={{
+          headerTitleAlign: 'center',
+          headerStyle: {backgroundColor: '#BA963A'},
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}>
         <Stack.Screen
           name="Splash"
           component={SplashScreen}
           options={{headerShown: false}}
         />
-        <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="SemesterHome"
-          component={SemesterHomeScreen}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="Bookhome"
-          component={BookHomeScreen}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="PDF"
-          component={PDFScreen}
-          options={{headerShown: false}}
-        />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="SemesterHome" component={SemesterHomeScreen} />
+        <Stack.Screen name="SemesterHome1" component={SemesterHomeScreen1} />
+        <Stack.Screen name="Bookhome" component={BookHomeScreen} />
+        <Stack.Screen name="Bookhome1" component={BookHomeScreen1} />
+
+        <Stack.Screen name="PDF" component={PDFScreen} />
         <Stack.Screen
           name="Swipe"
           component={SwipeAbleScreen}
