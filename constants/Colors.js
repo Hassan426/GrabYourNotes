@@ -1,5 +1,6 @@
 export default {
-  gray: '#969696',
-  gray1: '#c9c9c9',
-  white: '#ffffff',
+  Magenta: '#cf1578',
+  goldenrod: '#e8d21d',
+  turquoise: '#039fbe',
+  brick: '#b20238',
 };

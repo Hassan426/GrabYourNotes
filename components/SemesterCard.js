@@ -1,6 +1,7 @@
 import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {height, width} from 'react-native-dimension';
+import Colors from '../constants/Colors';
 
 const SemesterCard = ({semester, image, onPress}) => {
   return (
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
   },
   titleContainer: {
     height: height(10),
-    backgroundColor: '#BA963A',
+    backgroundColor: Colors.Magenta,
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 5,

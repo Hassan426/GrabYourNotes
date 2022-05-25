@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   card: {
     width: '100%',
     height: height(7),
-    backgroundColor: Colors.gray1,
+    backgroundColor: Colors.goldenrod,
     borderRadius: 50,
     justifyContent: 'center',
     alignItems: 'center',

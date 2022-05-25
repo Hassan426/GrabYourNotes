@@ -53,6 +53,7 @@ const BookCard = ({
             marginHorizontal: width(4),
           }}>
           <Button
+            color="red"
             title="Download Book"
             titleStyle={{fontSize: 14}}
             onPress={() => alert('Download file later')}
@@ -81,7 +82,7 @@ const styles = StyleSheet.create({
   },
   titleContainer: {
     height: height(10),
-    backgroundColor: '#BA963A',
+    backgroundColor: Colors.Magenta,
     justifyContent: 'space-around',
     // alignItems: 'center',
     // justifyContent: 'center',
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
   },
   titleContainer1: {
     height: height(10),
-    backgroundColor: '#BA963A',
+    backgroundColor: Colors.Magenta,
     flexDirection: 'row',
     borderBottomEndRadius: height(3),
     borderBottomLeftRadius: height(3),
@@ -107,7 +108,7 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   creditHours: {
-    color: Colors.white,
+    color: 'white',
     fontSize: 14,
     fontWeight: '700',
   },
