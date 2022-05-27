@@ -7,12 +7,7 @@ import {
   FlatList,
 } from 'react-native';
 import React, {useEffect} from 'react';
-import Colors from '../constants/Colors';
-import Button1 from '../components/Button1';
-import CateGories from '../components/CateGories';
-// import Data from '../DummyData/DummyData';
-import SemesterCard from '../components/SemesterCard';
-import BookHomeScreen from './BookHomeScreen';
+import SemesterCard from '../../components/SemesterCard';
 import {height} from 'react-native-dimension';
 
 const SemesterHomeScreen1 = ({navigation, route}) => {

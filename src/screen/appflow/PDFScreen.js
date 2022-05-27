@@ -1,4 +1,5 @@
-import React from 'react';
+import {loadOptions} from '@babel/core';
+import React, {useState} from 'react';
 import {
   StyleSheet,
   Dimensions,
@@ -9,6 +10,7 @@ import {
 import Pdf from 'react-native-pdf';
 import * as Progress from 'react-native-progress';
 const Show = ({route, params}) => {
+  const [progress, setprogress] = useState();
   const {url} = route.params;
   console.log('aaaaaaaa', url);
   const source = {
@@ -30,11 +32,23 @@ const Show = ({route, params}) => {
         source={source}
         onLoadProgress={percent => {
           console.log(percent);
+          setprogress(percent);
           return (
             <Progress.Bar
               progress={percent}
               color={'blue'}
               borderColor={'yellow'}
+            />
+          );
+        }}
+        enablePaging={true}
+        renderActivityIndicator={() => {
+          console.log(progress);
+          return (
+            <Progress.Bar
+              progress={progress}
+              color={'blue'}
+              borderColor={'red'}
             />
           );
         }}

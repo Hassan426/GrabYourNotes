@@ -1,17 +1,16 @@
 import {StyleSheet, Text, View, FlatList} from 'react-native';
-import React, {useState, useEffect} from 'react';
-import CateGories from '../components/CateGories';
-// import * as openAnything from 'react-native-openanything';
-import BookCard from '../components/BookCard';
+import React, {useEffect, useState} from 'react';
 import {height} from 'react-native-dimension';
-const BookHomeScreen1 = ({route, params, navigation}) => {
+import BookCard from '../../components/BookCard';
+// import * as openAnything from 'react-native-openanything';
+const BookHomeScreen = ({route, params, navigation}) => {
   // const [url, setUrl] = useState();
   const {Books, booktitle} = route.params;
   // setUrl(Books);
   console.log('aaaaaaaaaaa', Books);
   useEffect(() => {
     navigation.setOptions({
-      title: 'NOTES LIST',
+      title: 'BOOKS LIST',
     });
   }, []);
   return (
@@ -44,6 +43,6 @@ const BookHomeScreen1 = ({route, params, navigation}) => {
 //     'https://educations4u.com/wp-content/uploads/2021/09/Introduction-to-STATISTICAL-THEORY-BSc-Part-1-By-Prof-Sher-Muhammad-Choudhry-and-Prof.-Dr.-Shahid-Kamal.pdf',
 //   )
 // }
-export default BookHomeScreen1;
+export default BookHomeScreen;
 
 const styles = StyleSheet.create({});

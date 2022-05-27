@@ -6,7 +6,7 @@ import {useNetInfo} from '@react-native-community/netinfo';
 
 const OfflineNotice = () => {
   const netinfo = useNetInfo();
-  console.log('net', netinfo);
+  // console.log('net', netinfo);
   if (netinfo.type !== 'unknown' && netinfo.isInternetReachable === false)
     return (
       <View style={styles.container}>

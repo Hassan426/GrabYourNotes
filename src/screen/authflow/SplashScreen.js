@@ -1,8 +1,9 @@
 import {StyleSheet, Image, View} from 'react-native';
 import React from 'react';
-import Colors from '../constants/Colors';
-import images from '../constants/images';
-import Button1 from '../components/Button1';
+import Colors from '../../constants/Colors';
+import images from '../../constants/images';
+import Button1 from '../../components/Button1';
+
 const SplashScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
@@ -10,7 +11,7 @@ const SplashScreen = ({navigation}) => {
       <View style={styles.button}>
         <Button1
           title={'Getting Started'}
-          onPress={() => navigation.navigate('Swipe')}
+          onPress={() => navigation.navigate('SignIn')}
         />
       </View>
     </View>

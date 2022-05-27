@@ -1,17 +1,22 @@
-import {StyleSheet, Text, View, ScrollView} from 'react-native';
-import React, {useEffect} from 'react';
-import SemesterCard from '../components/SemesterCard';
+import {StyleSheet, Text, View, ScrollView, Button} from 'react-native';
+import React, {useContext, useEffect} from 'react';
+import SemesterCard from '../../components/SemesterCard';
 import {height} from 'react-native-dimension';
-import {Data1, Data} from '../DummyData/DummyData';
-
+import {Data1, Data} from '../../DummyData/DummyData';
+import {AuthContext} from '../../../App';
+import useAuth from '../authflow/useAuth';
 const HomeScreen = ({navigation}) => {
   useEffect(() => {
     navigation.setOptions({
       title: 'HOME SCREEN',
     });
   }, []);
+  const {setUserId} = useAuth();
   return (
     <ScrollView>
+      <View>
+        <Button title="Logout" onPress={() => setUserId(null)} />
+      </View>
       <View style={{marginTop: height(2)}}>
         <SemesterCard
           semester={'PDF BOOKS'}

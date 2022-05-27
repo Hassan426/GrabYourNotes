@@ -14,11 +14,10 @@ const styles = StyleSheet.create({
   card: {
     width: '100%',
     height: height(7),
-    backgroundColor: Colors.goldenrod,
+    backgroundColor: Colors.brick,
     borderRadius: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 20,
   },
   title: {
     fontSize: 20,

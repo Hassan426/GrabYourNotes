@@ -1,9 +1,15 @@
-import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  ActivityIndicator,
+} from 'react-native';
 import React from 'react';
 import {height, width} from 'react-native-dimension';
 import Colors from '../constants/Colors';
 import {Button} from 'react-native-elements';
-
+import {Image} from 'react-native-elements';
 const BookCard = ({
   semester,
   image,
@@ -15,7 +21,11 @@ const BookCard = ({
   return (
     <View style={styles.main}>
       <View style={styles.imageStyle}>
-        <Image source={image} style={{width: '100%', height: '100%'}} />
+        <Image
+          source={image}
+          style={{width: '100%', height: '100%'}}
+          PlaceholderContent={<ActivityIndicator color={'yellow'} size={30} />}
+        />
       </View>
       <View style={styles.titleContainer}>
         <View
