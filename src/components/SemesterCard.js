@@ -17,7 +17,7 @@ const SemesterCard = ({semester, image, onPress}) => {
         <Image
           source={image}
           style={{width: '100%', height: '100%'}}
-          PlaceholderContent={<ActivityIndicator color={'yellow'} size={50} />}
+          PlaceholderContent={<ActivityIndicator color={'yellow'} size={100} />}
         />
       </View>
       <View style={styles.titleContainer}>
