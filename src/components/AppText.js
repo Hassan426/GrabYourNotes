@@ -1,19 +1,18 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import Colors from '../constants/Colors';
+import {Children} from 'react/cjs/react.production.min';
 
-const AppText = ({error, visible, style}) => {
-  if (!visible || !error) return null;
+const Apptext = ({children}) => {
   return (
     <View>
-      <Text style={[styles.error, style]}>{error}</Text>
+      <Text style={{fontSize: 32, fontWeight: 'bold', color: Colors.white}}>
+        {children}
+      </Text>
     </View>
   );
 };
 
-export default AppText;
+export default Apptext;
 
-const styles = StyleSheet.create({
-  error: {
-    color: 'red',
-  },
-});
+const styles = StyleSheet.create({});
