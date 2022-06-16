@@ -19,11 +19,10 @@ import Spacer, {
 import Button1 from '../../components/Button1';
 import {height, width} from 'react-native-dimension';
 import Colors from '../../constants/Colors';
-import Images from '../../constants/images';
 import images from '../../constants/images';
 import {Formik} from 'formik';
 import * as Yup from 'yup';
-import AppText from '../../components/AppText';
+// import Apptext from '../../components/AppText';
 import useAuth from './useAuth';
 const SignUpScreen = () => {
   const {setUserId} = useAuth();
@@ -83,7 +82,7 @@ const SignUpScreen = () => {
                       onChangeText={handleChange('email')}
                       onBulr={() => setFieldTouched('email')}
                     />
-                    <AppText error={errors.email} visible={touched.password} />
+                    {/* <Apptext error={errors.email} visible={touched.password} /> */}
                     <Spacer3 />
                     <Appcontainer
                       name="lock"
@@ -92,10 +91,10 @@ const SignUpScreen = () => {
                       onBulr={() => setFieldTouched('password')}
                       keyboardType="numeric"
                     />
-                    <AppText
+                    {/* <Apptext
                       error={errors.password}
                       visible={touched.password}
-                    />
+                    /> */}
                     <Spacer3 />
                     <Appcontainer
                       name="lock"
@@ -104,10 +103,10 @@ const SignUpScreen = () => {
                       onBulr={() => setFieldTouched('passwordConfirmation')}
                       keyboardType="numeric"
                     />
-                    <AppText
+                    {/* <Apptext
                       error={errors.passwordConfirmation}
                       visible={touched.passwordConfirmation}
-                    />
+                    /> */}
                     <Spacer3 />
                     <Appcontainer
                       name="phone"
@@ -124,7 +123,7 @@ const SignUpScreen = () => {
                       onBulr={() => setFieldTouched('phone')}
                       keyboardType="numeric"
                     />
-                    <AppText error={errors.phone} visible={touched.phone} />
+                    {/* <Apptext error={errors.phone} visible={touched.phone} /> */}
                     <Spacer1 />
                     <TouchableOpacity>
                       <Text style={styles.forgotpassword}>Forgot password</Text>

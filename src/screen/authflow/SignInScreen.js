@@ -23,7 +23,7 @@ import Images from '../../constants/images';
 import images from '../../constants/images';
 import {Formik} from 'formik';
 import * as Yup from 'yup';
-import AppText from '../../components/AppText';
+// import Apptext from '../../components/AppText';
 import useAuth from './useAuth';
 
 const SignInScreen = ({navigation}) => {
@@ -81,7 +81,8 @@ const SignInScreen = ({navigation}) => {
                       onChangeText={handleChange('email')}
                       onBulr={() => setFieldTouched('email')}
                     />
-                    <AppText error={errors.email} visible={touched.password} />
+                    {/* <Apptext error={errors.email} visible={touched.password} /> */}
+                    <Text >{errors.email}</Text>
                     <Spacer3 />
                     <Appcontainer
                       name="lock"
@@ -90,10 +91,10 @@ const SignInScreen = ({navigation}) => {
                       onBulr={() => setFieldTouched('password')}
                       keyboardType="numeric"
                     />
-                    <AppText
+                    {/* <Apptext
                       error={errors.password}
                       visible={touched.password}
-                    />
+                    /> */}
                     <Spacer1 />
                     <TouchableOpacity>
                       <Text style={styles.forgotpassword}>Forgot password</Text>
