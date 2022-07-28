@@ -1,22 +1,19 @@
 import {StyleSheet, Text, View, ScrollView, Button} from 'react-native';
-import React, {useContext, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import SemesterCard from '../../components/SemesterCard';
 import {height} from 'react-native-dimension';
 import {Data1, Data} from '../../DummyData/DummyData';
-import {AuthContext} from '../../../App';
-import useAuth from '../authflow/useAuth';
 const HomeScreen = ({navigation}) => {
   useEffect(() => {
     navigation.setOptions({
       title: 'HOME SCREEN',
     });
   }, []);
-  const {setUserId} = useAuth();
   return (
     <ScrollView>
-      <View>
+      {/* <View>
         <Button title="Logout" onPress={() => setUserId(null)} />
-      </View>
+      </View> */}
       <View style={{marginTop: height(2)}}>
         <SemesterCard
           semester={'PDF BOOKS'}
@@ -32,13 +29,13 @@ const HomeScreen = ({navigation}) => {
           }}
           onPress={() => navigation.navigate('SemesterHome1', {Data1: Data1})}
         />
-        <SemesterCard
+        {/* <SemesterCard
           semester={'VIDEO LECTURES'}
           image={{
             uri: 'https://media.istockphoto.com/photos/elearning-education-concept-learning-online-picture-id1290864946?b=1&k=20&m=1290864946&s=170667a&w=0&h=zZq7rG5McSptSIpEm9f8iTGd3Mrdkcslakr91T7qTYM=',
           }}
           onPress={() => alert('Screen added later')}
-        />
+        /> */}
       </View>
       {/* <View style={{marginBottom: height(2)}}></View> */}
     </ScrollView>

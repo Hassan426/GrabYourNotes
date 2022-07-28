@@ -7,13 +7,9 @@ import {
   PDFScreen,
   SemesterHomeScreen,
   SemesterHomeScreen1,
-} from '../screen/appflow';
-import {
   SplashScreen,
-  SignInScreen,
-  SignUpScreen,
-  useAuth,
-} from '../screen/authflow';
+} from '../screen/appflow';
+
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Colors from '../constants/Colors';
@@ -21,39 +17,7 @@ import OfflineNotice from '../components/OfflineNotice';
 
 export default function Navigation() {
   const MainStack = createNativeStackNavigator();
-  const AuthStack = createNativeStackNavigator();
 
-  const {userId} = useAuth();
-
-  const AuthStackNavigator = () => {
-    return (
-      <AuthStack.Navigator
-        screenOptions={{
-          headerTitleAlign: 'center',
-          headerStyle: {backgroundColor: Colors.Magenta},
-          headerTintColor: '#fff',
-          headerTitleStyle: {
-            fontWeight: 'bold',
-          },
-        }}>
-        <AuthStack.Screen
-          name="Splash"
-          component={SplashScreen}
-          options={{headerShown: false}}
-        />
-        <AuthStack.Screen
-          name="SignIn"
-          component={SignInScreen}
-          options={{headerShown: false}}
-        />
-        <AuthStack.Screen
-          name="SignUp"
-          component={SignUpScreen}
-          options={{headerShown: false}}
-        />
-      </AuthStack.Navigator>
-    );
-  };
   const MainStackNavigator = () => {
     return (
       <MainStack.Navigator
@@ -65,6 +29,11 @@ export default function Navigation() {
             fontWeight: 'bold',
           },
         }}>
+        <MainStack.Screen
+          name="Splash"
+          component={SplashScreen}
+          options={{headerShown: false}}
+        />
         <MainStack.Screen name="Home" component={HomeScreen} />
         <MainStack.Screen name="SemesterHome" component={SemesterHomeScreen} />
         <MainStack.Screen
@@ -86,7 +55,7 @@ export default function Navigation() {
     <>
       <OfflineNotice />
       <NavigationContainer>
-        {userId ? MainStackNavigator() : AuthStackNavigator()}
+        <MainStackNavigator />
       </NavigationContainer>
     </>
   );

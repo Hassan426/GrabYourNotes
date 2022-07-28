@@ -50,6 +50,7 @@ const BookCard = ({
           style={{
             width: width(30),
             marginHorizontal: width(4),
+            width: width(70),
           }}>
           <Button
             title="View Book"
@@ -57,7 +58,7 @@ const BookCard = ({
             onPress={ViewBook}
           />
         </View>
-        <View
+        {/* <View
           style={{
             width: width(35),
             marginHorizontal: width(4),
@@ -68,7 +69,7 @@ const BookCard = ({
             titleStyle={{fontSize: 14}}
             onPress={() => alert('Download file later')}
           />
-        </View>
+        </View> */}
       </View>
     </View>
   );
@@ -108,7 +109,7 @@ const styles = StyleSheet.create({
     borderBottomEndRadius: height(3),
     borderBottomLeftRadius: height(3),
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
 
     //   borderRadius: 10,
   },

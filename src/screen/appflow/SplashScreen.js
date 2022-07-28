@@ -11,7 +11,7 @@ const SplashScreen = ({navigation}) => {
       <View style={styles.button}>
         <Button1
           title={'Getting Started'}
-          onPress={() => navigation.navigate('SignIn')}
+          onPress={() => navigation.navigate('Home')}
         />
       </View>
     </View>
