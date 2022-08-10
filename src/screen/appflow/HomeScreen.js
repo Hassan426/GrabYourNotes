@@ -29,13 +29,13 @@ const HomeScreen = ({navigation}) => {
           }}
           onPress={() => navigation.navigate('SemesterHome1', {Data1: Data1})}
         />
-        {/* <SemesterCard
+        <SemesterCard
           semester={'VIDEO LECTURES'}
           image={{
             uri: 'https://media.istockphoto.com/photos/elearning-education-concept-learning-online-picture-id1290864946?b=1&k=20&m=1290864946&s=170667a&w=0&h=zZq7rG5McSptSIpEm9f8iTGd3Mrdkcslakr91T7qTYM=',
           }}
           onPress={() => alert('Screen added later')}
-        /> */}
+        />
       </View>
       {/* <View style={{marginBottom: height(2)}}></View> */}
     </ScrollView>
